@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .mark-sheet {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none;
+    background-color:aqua;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #result-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #result-display {
+    margin-top: 20px;
+  }
+  
